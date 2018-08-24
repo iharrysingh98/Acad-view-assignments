@@ -1,9 +1,12 @@
-  class Animal {
+  class Animal 
+  
+  {
    String breed;
    String color;
 
 
-   void Speak(){
+   void Speak()
+   {
        System.out.println("Dogs and Cats !!");
    }
 
@@ -24,20 +27,25 @@
 }
  
 
-     class Dog extends Animal{
+     class Dog extends Animal
+     {
          String breed;
        String color;
 
-                 void Speak(){
-                System.out.println("Bark !!");
+                 void Speak()
+                 {
+               
+                   System.out.println("Barkk ");
                  }
               }
 
-  class Cat extends Animal{
+  class Cat extends Animal
+  {
         String breed;
      String color;
 
    void Speak(){
-                     System.out.println("Meow !!");
+                    
+     System.out.println("Meooow");
   }
     }
